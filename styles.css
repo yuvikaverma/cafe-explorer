@@ -1,0 +1,96 @@
+body {
+  background-color: #e1cdc1;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ecdfd8;
+  border-radius: 10px;
+  border: 2px solid #c08f81;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  
+  float: right;
+  font: DM Sans;
+  color: #c08f81;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c08f81;
+  border-radius: 40px;
+  color: #7e3016;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #7e3016;
+}
+
+h1 {
+  text-align: center;
+  font: DM Sans;
+  color: #7e3016;
+}
+
+----
+
+/* Style the search bar to match the top nav & theme */
+.search input[type="text"] {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border: 2px solid #c08f81;  /* matches nav border */
+  border-radius: 40px;         /* rounded like nav links */
+  background-color: #ecdfd8;   /* matches nav background */
+  color: #7e3016;              /* warm text color */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.search input[type="text"]:focus {
+  border-color: #7e3016;
+  box-shadow: 0 0 5px rgba(126, 48, 22, 0.5);
+}
+
+.search input::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+----
+
+form {
+  background-color: #4654e1;
+  width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+
+
